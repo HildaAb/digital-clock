@@ -17,7 +17,7 @@ body {
   width: 800px;
   border: 6px double goldenrod;
   padding: 10px 14px;
-  background-color: rgb(55, 30, 74);
+  background-color: rgb(61, 47, 70);
 }
 
 .row {
@@ -36,11 +36,11 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 4px;
   font-size: 35px;
-  font-weight: bold;
+  font-weight: bolder;
   text-align: start;
   padding: 20px;
   margin-left: -40px;
-  color: brown;
+  color: rgb(197, 199, 189);
 }
 
 .clock {
