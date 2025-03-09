@@ -7,22 +7,31 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Digital clock</h1>
-    <div class="clock">
-      <div>
-        <span id="hours">00 : </span>
-        <span class="text">Hours</span>
-      </div>
-      <div>
-        <span id="minutes">00 :</span>
-        <span class="text">Minutes</span>
-      </div>
-      <div>
-        <span id="seconds">00</span>
-        <span class="text">Secunds</span>
-      </div>
-      <div>
-        <span id="am">AM</span>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <img src="clock.jpg" class="picture" />
+        </div>
+        <div class="col-8">
+          <h1>Digital clock</h1>
+          <div class="clock">
+            <div>
+              <span id="hours">00 : </span>
+              <span class="text">Hours</span>
+            </div>
+            <div>
+              <span id="minutes">00 :</span>
+              <span class="text">Minutes</span>
+            </div>
+            <div>
+              <span id="seconds">00</span>
+              <span class="text">Seconds</span>
+            </div>
+            <div>
+              <span class="am" id="am">AM</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <script src="app.js"></script>
